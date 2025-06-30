@@ -20,25 +20,21 @@ This project was implemented in a Jupyter Notebook using the following Python li
 
 ### 🏦 Bank-wise Transaction Analysis
 - Total number of transactions **sent and received** by each bank
-- Visualized using bar plots and heatmaps for sender–receiver patterns
+- Visualized using heatmap for sender–receiver patterns
 
 ### 💸 Spending Distribution
-- Distribution of transaction amounts across users
+- Distribution of transaction amounts across users and categories
 - Identification of **high-value vs low-value transaction trends**
 
 ### 🚨 Fraud Transactions Analysis
 - Detection and visualization of **suspicious/fraudulent patterns**
-- Compared across banks and time periods
+- Compared across banks and time period
 
 ### ❌ Failed Transactions Pattern
 - Analysis of failed transactions by:
-  - Bank
-  - Time of day
-  - Amount
-
-### 📈 Time Series Trends (Optional)
-- Transaction volume trends across months
-- Spikes during festivals or salary dates
+  - Devices
+  - Network type
+  - Merchant Category
 
 ## 📊 Visuals
 - Static graphs via Matplotlib and Seaborn
@@ -48,6 +44,7 @@ This project was implemented in a Jupyter Notebook using the following Python li
 - Which banks handle the most UPI volume?
 - How do failed transactions correlate with volume or value?
 - Are frauds clustered around certain banks or times?
+- What are spending amounts across various age groups and merchant types?
 
 ## 🚀 Getting Started
 
